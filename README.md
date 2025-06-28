@@ -10,7 +10,7 @@ Django WhatsApp Clone - A real-time messaging web application built with Django 
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- [@Abdulkhafid001](https://github.com/Abdulkhafid001/)
 
 ## Deployment
 
