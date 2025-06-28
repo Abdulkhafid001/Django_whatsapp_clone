@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* primary shades of green */
+    --base-color: #075e54;
+    --base-color-light: #128c7e;
+    --base-color-dark: #25d366;
+    --base-color-light: #dcf8c6;
+    --homepage-bg-color: #ece5dd;
+
+    /* WhatsApp colors new Color Palette */
+    --app-base-color: #054640;
+    --app-base-color-dark: #005d4b;
+    --app-base-color-light: #06625f;
+    --app-base-color-grey: #bbbbbb;
+    --app-base-color-greyer: #aaaaaa;
+}
+
+/* utility classes */
+.text-center {
+    text-align: center;
+}
+
+.mb-sm {
+    margin-bottom: 20px;
+}
+
+.d-none-lg {
+    display: block;
+}
+
+body {
+    background-color: var(--homepage-bg-color);
+}
+
+.logo-text {
+    color: var(--base-color-dark);
+    padding: 1em;
+    margin-left: 25px;
+}
+
+.download-ad {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    margin: 10px 5px;
+    padding: 1em;
+    border: 1px solid #000;
+    border-radius: 25px;
+}
+
+.download-steps-container {
+    text-align: center;
+    margin: 10px 5px;
+    background: white;
+    padding: 1em;
+    border: 1px solid #000;
+    border-radius: 25px;
+}
+
+.download-steps-container h3 {
+    margin-bottom: 20px;
+}
+
+.steps ul {
+    list-style-type: decimal;
+    margin-bottom: 40px;
+}
+
+.steps ul li {
+    font-size: 15px;
+    margin-bottom: 1em;
+}
+
+.download-qr {
+    margin-bottom: 40px;
+}
+
+/* Large Screens */
+@media (min-width: 900px) {
+    .d-none-lg {
+        display: none;
+    }
+
+    .download-ad {
+        margin: auto;
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .download-steps-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        margin: auto;
+        width: 60%;
+        padding: 2.5em;
+    }
+
+    /* .download-steps-container h3 {}
+
+    .steps ul {}
+
+    .steps ul li {}
+
+    .download-qr {} */
+
+    .download-btn {
+        text-decoration: none;
+        background-color: var(--base-color-dark);
+        padding: 1em 1.5em;
+        border: 1px solid #000;
+        border-radius: 25px;
+        color: #000;
+    }
+
+    .whatsApp-ad {
+        margin-top: 40px;
+    }
+}
